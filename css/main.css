@@ -1,0 +1,112 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{color: #333; text-decoration: none;}
+body{
+    font-family: 'LINESeedKR-Bd';
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+}
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+#header{
+    width: 1320px;
+    height: 100px;
+    margin: 0 auto;
+}
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gnb_left{
+    float: left;
+    padding-top: 30px;
+}
+.gnb_left li{
+    float: left;
+}
+.gnb_left li a{
+    display: block;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.logo{
+    display: inline;
+}
+.logo img{ 
+    padding: 15px;
+    margin-left: 100px;
+}
+.gnb_right{
+    float: right;
+    padding-top: 30px;
+}
+.gnb_right li{
+    float: left;
+}
+.gnb_right li a{
+    display: block;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+/*slide_swiper*/
+.swiper {
+    width: 1620px;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner1 {
+    background-image: url(../imges/main/main_banner_my.png);
+}
+
+.banner2 {
+    background-image: url(../imges/main/main_banner_my.png);
+}
+
+.banner3 {
+    background-image: url(../imges/main/main_banner_my.png);
+}
+
+.banner4 {
+    background-image: url(../imges/main/main_banner_my.png);
+}
